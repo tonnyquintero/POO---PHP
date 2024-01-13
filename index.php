@@ -7,3 +7,5 @@ include 'Admin.php';
 $user = new User;
 $user->type = new Admin;
 echo $user->type->greet();
+
+// salida: Hola Administrador
