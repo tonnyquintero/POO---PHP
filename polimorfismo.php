@@ -31,7 +31,7 @@ class Guest extends Base {
 $guest = new Guest();
 echo $guest->login();
 
-$admin = new Admin('Helena');
+$admin = new Admin('Eliana');
 echo $admin->login();
 
 $user = new User('John Moore');
