@@ -25,7 +25,7 @@ class User extends Base {
 }
 
 class Guest extends Base {
-    protected $name = 'invitado';
+    protected $name = 'invitado(a)';
 }
 
 $guest = new Guest();
